@@ -1,0 +1,9 @@
+<div class="password-container">
+  <label for="password">Enter Password:</label>
+  <input type="password" id="password" [formControl]="password" (input)="checkPasswordStrength()">
+  <div class="strength-indicator">
+    <div id="strength-1" [ngStyle]="{'background-color': strengthColor[0]}"></div>
+    <div id="strength-2" [ngStyle]="{'background-color': strengthColor[1]}"></div>
+    <div id="strength-3" [ngStyle]="{'background-color': strengthColor[2]}"></div>
+  </div>
+</div>
