@@ -1,0 +1,27 @@
+.strength-indicator {
+  position: relative;
+  top: -3px;
+  display: flex;
+
+  #strength-1, #strength-2, #strength-3 {
+    flex: 1;
+    height: 7px;
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  #strength-1 {
+    border-radius: 0 0 0 3px;
+  }
+
+  #strength-2 {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  #strength-3 {
+    border-radius: 0 0 3px 0;
+  }
+}
+
+
